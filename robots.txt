@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://littlesteps-b1a08.web.app/sitemap.xml
