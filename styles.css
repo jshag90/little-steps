@@ -45,6 +45,16 @@ body {
   padding-bottom: 120px; /* footer 높이만큼 여백 확보 */
 }
 
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+
 /* 네비게이션 바 스타일링 */
 .navbar {
   background: rgba(255, 255, 255, 0.95) !important;
@@ -422,7 +432,7 @@ footer {
   background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(10px);
   border-top: 1px solid rgba(255, 182, 193, 0.2);
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 footer .text-center {
